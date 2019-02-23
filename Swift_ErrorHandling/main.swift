@@ -8,5 +8,51 @@
 
 import Foundation
 
-print("Hello, World!")
+/*func add()
+{
+    print("1")
+    try
+    {
+        defer       //dont use break
+        {
+            print("123")
+        }
+    }
+    print("2")
+}
+ */
 
+
+
+
+class myClass
+{
+    private var a:Int
+    private var b:Int {
+    get
+    {
+        return 0
+    }
+    set
+    {
+    
+    }
+    }
+    init()
+    {
+    self.a = 0
+    self.b = 0
+    }
+    
+    func get_a() -> Int
+    {
+    
+        return self.a
+    }
+    
+    
+    
+}
+
+var m1 = myClass()
+print(m1.get_a())
